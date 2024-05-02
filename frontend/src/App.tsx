@@ -15,8 +15,8 @@ function App() {
       },
     });
 
-    const { data, err } = await res;
-    console.log(data, err);
+    const { data } = await res;
+    console.log(data);
   };
   return (
     <div>
